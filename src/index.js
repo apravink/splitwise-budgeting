@@ -24,23 +24,6 @@ const MonthlyChart = (props) =>{
 }
 
 
-// class MonthlyChart extends React.Component{
-//     render (){
-//         return(
-//             <div>
-//             <h1>Hi</h1>
-//             </div>
-//             // <BarChart width={600} height={300} data= {props.data}
-//             // margin={{top: 5, right: 30, left: 20, bottom: 5}}>
-//             // <XAxis dataKey="name"/>
-//             // <YAxis/>
-//             // <Bar dataKey="Budgeted" fill="#8884d8" />
-//             // <Bar dataKey="Val" fill="#8884d8" />
-//             // </BarChart>
-//         )
-//     }
-// }
-
 
 
 
