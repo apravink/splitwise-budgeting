@@ -22,9 +22,21 @@ const MonthlyChart = (props) =>{
             </BarChart>
     )
 }
-
+class MonthlyPanel extends React.Component{
+    state = {
+        isActive:'',
+    }
+    render(){
+        return(
+            <div>
+            <h1>Nov</h1>
+            <MonthlyChart data = {data} />
+            </div>
+        )
+    }
+}
 
 
 
 ReactDOM.render(
-    <MonthlyChart data = {data}  />, document.getElementById('root'));
+    <MonthlyPanel  />, document.getElementById('root'));
