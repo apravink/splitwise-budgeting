@@ -26,7 +26,5 @@ const MonthlyChart = (props) =>{
 
 
 
-
-
 ReactDOM.render(
     <MonthlyChart data = {data}  />, document.getElementById('root'));
